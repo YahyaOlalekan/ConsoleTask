@@ -19,11 +19,11 @@ int number = int.Parse(Console.ReadLine());
 
 if (number % 2 == 0)
 {
-    Console.WriteLine($"{number} is an even number");
+    Console.WriteLine("Even");
 }
 else
 {
-    Console.WriteLine($"{number} is an odd number");
+    Console.WriteLine("Odd");
 }
 Console.WriteLine();
 
